@@ -100,3 +100,10 @@ postcss_error.log
 
 # ripgrep ignore file
 .rgignore
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity

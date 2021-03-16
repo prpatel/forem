@@ -1,0 +1,6 @@
+DATABASE_NAME="Forem_production" # Used when creating a db instance `rails db:create`
+DATABASE_PASSWORD="ConnectForem9!"
+DATABASE_URL="postgresql://forem:$DATABASE_PASSWORD@localhost:5434/$DATABASE_NAME"
+echo "Connecting with:"
+echo $DATABASE_URL
+psql $DATABASE_URL
